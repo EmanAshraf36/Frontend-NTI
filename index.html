@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  <title>My Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welome to My Website</h1>
+    <form method = "get" style = "display: flex; flex-direction: column; width: 300px; align-items: center;">
+        <fieldset>
+        <legend style = "font-weight: bold; font-size: 1.2em; border: 1px solid #ccc; padding: 10px;">Registration Form</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="adress">Address:</label>
+            <input type="text" id="address" name="address">
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required>
+            <br>
+            <label for="telephone">Telephone:</label>
+            <input type="tel" id="telephone" name="telephone">
+            <br>
+            <label for="dropdown">Gender:</label>
+            <select id="dropdown" name="dropdown">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+
+            <button type="submit" value="Submit">
+                Submit
+            </button>
+            </fieldset>
+
+    </form>
+</body>
